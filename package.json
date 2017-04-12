@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json:server": "./node_modules/json-server/bin/index.js --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/FinalDes/graqltraining#readme",
   "dependencies": {
+    "axios": "^0.16.1",
     "express": "^4.15.2",
     "express-graphql": "^0.6.4",
     "graphql": "^0.9.2",
+    "json-server": "^0.9.6",
     "lodash": "^4.17.4"
   }
 }
